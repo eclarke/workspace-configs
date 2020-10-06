@@ -17,4 +17,4 @@ set -o nounset -o errexit -o pipefail
 
 
 
-/usr/lib/rstudio-server/bin/rserver --www-port=8888 --auth-none=1 --server-app-armor-enabled=0
+rstudio-server start --www-port=8888 --auth-none=1 --server-app-armor-enabled=0
